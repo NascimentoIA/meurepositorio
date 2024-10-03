@@ -23,7 +23,9 @@ def gerar_encoding(imagem):
     else:
         raise ValueError("Nenhum rosto encontrado na imagem.")
 
-# Carregar a imagem do banco de dados
+##########################################################################################################################
+# Atenção !!!!!! Mude para seu caminho colocando a foto que deseja ser reconhecido - Carregar a imagem do banco de dados #
+##########################################################################################################################
 caminho_imagem = r"F:/Anaconda/socorro/analuiza.jpg" # Certifique-se de que o caminho está correto
 imagem = carregar_imagem(caminho_imagem)
 encoding_cadastrado = gerar_encoding(imagem)
